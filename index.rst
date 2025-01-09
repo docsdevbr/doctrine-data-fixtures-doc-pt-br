@@ -1,5 +1,5 @@
 ---
-source_url: https://github.com/doctrine/data-fixtures/blob/2.0.x/docs/en/index.rst
+source_url: https://github.com/doctrine/data-fixtures/blob/1.6.x/docs/en/index.rst
 revision: fea0550b9426845214957a1aad8c266891181124
 status: ready
 
