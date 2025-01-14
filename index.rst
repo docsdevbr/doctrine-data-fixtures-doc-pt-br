@@ -26,9 +26,7 @@ Instalação
 O cenário mais provável é que você precisará desta biblioteca para fins de
 teste::
 
-.. code-block:: shell
-
-    composer require --dev doctrine/data-fixtures
+    $ composer require --dev doctrine/data-fixtures
 
 Obtendo ajuda
 -------------
