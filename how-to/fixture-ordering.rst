@@ -25,6 +25,29 @@ qual ordem eles serão carregados.
 Opção 1: Controlando a ordem manualmente
 ----------------------------------------
 
+.. code-block:: php
+
+    <?php
+
+    namespace MyDataFixtures;
+
+    use Doctrine\Common\DataFixtures\AbstractFixture;
+    use Doctrine\Common\DataFixtures\OrderedFixtureInterface;
+    use Doctrine\Persistence\ObjectManager;
+
+    final class MyFixture extends AbstractFixture implements OrderedFixtureInterface
+    {
+        public function load(ObjectManager $manager): void
+        {
+            // …
+        }
+
+        public function getOrder(): int
+        {
+            return 10; // menor significa antes
+        }
+    }
+
 .. note::
     Embora estender ``AbstractFixture`` não seja necessário, é provável que você
     precise, já que as pessoas geralmente precisam que os fixtures sejam

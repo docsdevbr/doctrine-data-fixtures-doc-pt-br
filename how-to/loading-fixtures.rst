@@ -110,25 +110,13 @@ Por exemplo, se você estiver usando ORM, você deve fazer o seguinte:
 .. note::
 
     Cada classe executora fornecida por este pacote vem com uma classe de
-    exclusão que será usada para esvaziar seu banco de dados, a menos que você a
+    expurgo que será usada para esvaziar seu banco de dados, a menos que você a
     desabilite explicitamente.
 
-Se você quiser anexar os fixtures em vez de excluir os dados antes de carregar,
-passe ``append: true`` para o método ``execute()``:
+Se você quiser anexar os fixtures em vez de expurgar antes de carregar, passe
+``true`` para o segundo argumento de ``execute()``:
 
 .. code-block:: php
 
     <?php
     $executor->execute($loader->getFixtures(), append: true);
-
-Por padrão, o ``ORMExecutor`` encapsulará a exclusão e o carregamento dos
-fixtures em uma única transação, que é a maneira recomendada, mas em alguns
-casos (por exemplo, se o carregamento de seus fixtures for muito lento e causar
-esgotamento de tempo), você pode querer encapsular a exclusão dos dados e a
-carga de cada fixture em sua própria transação.
-Para fazer isso, você pode usar ``MultipleTransactionORMExecutor``.
-
-.. code-block:: php
-
-    <?php
-    $executor = new MultipleTransactionORMExecutor($entityManager, new ORMPurger());
