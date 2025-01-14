@@ -1,10 +1,8 @@
----
-source_url: https://github.com/doctrine/data-fixtures/blob/2.1.x/docs/en/index.rst
-revision: fea0550b9426845214957a1aad8c266891181124
-status: ready
+:source_url: https://github.com/doctrine/data-fixtures/blob/2.0.x/docs/en/index.rst
+:revision: fea0550b9426845214957a1aad8c266891181124
+:status: ready
 
-title: Doctrine Data Fixtures
----
+:title: Doctrine Data Fixtures
 
 Doctrine Data Fixtures
 ======================
@@ -18,9 +16,9 @@ Recursos
 --------
 
 * suporte para ORM e ambos os ODMs (PHPCR, MongoDB);
-* objetos podem ser compartilhados entre [fixtures]{lang="en"};
-* especificação da ordem em que os [fixtures]{lang="en"} são carregados;
-* especificação de dependências entre [fixtures]{lang="en"}.
+* objetos podem ser compartilhados entre fixtures;
+* especificação da ordem em que os fixtures são carregados;
+* especificação de dependências entre fixtures.
 
 Instalação
 ----------
