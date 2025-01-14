@@ -1,10 +1,8 @@
----
-source_url: https://github.com/doctrine/data-fixtures/blob/2.0.x/docs/en/index.rst
-revision: fea0550b9426845214957a1aad8c266891181124
-status: ready
+:source_url: https://github.com/doctrine/data-fixtures/blob/2.0.x/docs/en/index.rst
+:revision: fea0550b9426845214957a1aad8c266891181124
+:status: ready
 
-title: Doctrine Data Fixtures
----
+:title: Doctrine Data Fixtures
 
 Doctrine Data Fixtures
 ======================
@@ -28,7 +26,9 @@ Instalação
 O cenário mais provável é que você precisará desta biblioteca para fins de
 teste::
 
-    $ composer require --dev doctrine/data-fixtures
+.. code-block:: shell
+
+    composer require --dev doctrine/data-fixtures
 
 Obtendo ajuda
 -------------
