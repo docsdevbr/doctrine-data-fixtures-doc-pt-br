@@ -18,9 +18,9 @@ Recursos
 --------
 
 * suporte para ORM e ambos os ODMs (PHPCR, MongoDB);
-* objetos podem ser compartilhados entre [fixtures]{lang="en"};
-* especificação da ordem em que os [fixtures]{lang="en"} são carregados;
-* especificação de dependências entre [fixtures]{lang="en"}.
+* objetos podem ser compartilhados entre fixtures;
+* especificação da ordem em que os fixtures são carregados;
+* especificação de dependências entre fixtures.
 
 Instalação
 ----------
