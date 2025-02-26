@@ -3,7 +3,8 @@
 [![README file in English][readme-badge-en]][readme-lang-en]
 [![README file in Brazilian Portuguese][readme-badge-pt-br]][readme-lang-pt-br]
 
-Translation of Doctrine Data Fixtures Documentation into Brazilian Portuguese.
+Translation of the Doctrine Data Fixtures Documentation into Brazilian
+Portuguese.
 
 ## Support
 
